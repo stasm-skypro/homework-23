@@ -71,6 +71,10 @@ DATABASES = {
     }
 }
 
+MEDIA_ROOT = BASE_DIR / 'media'
+MEDIA_URL = '/media/'
+FILE_UPLOAD_MAX_MEMORY_SIZE = 2621440  # max 2.5 MB
+
 # Password validation
 AUTH_PASSWORD_VALIDATORS = [
     {

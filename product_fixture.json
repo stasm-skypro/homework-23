@@ -1,0 +1,106 @@
+[
+{
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+        "product": "Хлеб",
+        "description": "Хлеб белый стандартный",
+        "image": "",
+        "category": 1,
+        "price": 100.0,
+        "created_at": "2024-12-24",
+        "changed_at": "2024-12-24"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+        "product": "Яйца",
+        "description": "Яйца 1С",
+        "image": "",
+        "category": 1,
+        "price": 500.0,
+        "created_at": "2024-12-24",
+        "changed_at": "2024-12-24"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 4,
+    "fields": {
+        "product": "Шорты",
+        "description": "Шорты мужские, размер 50-58",
+        "image": "",
+        "category": 2,
+        "price": 5000.0,
+        "created_at": "2024-12-24",
+        "changed_at": "2024-12-24"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 5,
+    "fields": {
+        "product": "Сорочка мужская",
+        "description": "Сорочка мужская классическая",
+        "image": "",
+        "category": 2,
+        "price": 7000.0,
+        "created_at": "2024-12-24",
+        "changed_at": "2024-12-24"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 6,
+    "fields": {
+        "product": "Термобельё",
+        "description": "Термобельё утеплённое зимнее",
+        "image": "",
+        "category": 2,
+        "price": 779990.0,
+        "created_at": "2024-12-24",
+        "changed_at": "2024-12-24"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 7,
+    "fields": {
+        "product": "Шорты мужские, размер 50",
+        "description": "Шорты мужские, размер 50",
+        "image": "",
+        "category": 3,
+        "price": 180000.0,
+        "created_at": "2024-12-24",
+        "changed_at": "2024-12-24"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 8,
+    "fields": {
+        "product": "Шорты мужские, размер 50",
+        "description": "Шорты мужские, размер 50",
+        "image": "",
+        "category": 3,
+        "price": 210000.0,
+        "created_at": "2024-12-24",
+        "changed_at": "2024-12-24"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 9,
+    "fields": {
+        "product": "Шорты мужские, размер 50",
+        "description": "Шорты мужские, размер 50",
+        "image": "",
+        "category": 3,
+        "price": 31000.0,
+        "created_at": "2024-12-24",
+        "changed_at": "2024-12-24"
+    }
+}
+]
