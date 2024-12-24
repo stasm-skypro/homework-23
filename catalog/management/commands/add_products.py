@@ -47,6 +47,14 @@ class Command(BaseCommand):
                 "created_at": "2024-12-24",
                 "changed_at": "2024-12-24",
             },
+            {
+                "product": "Масло Вегетта",
+                "description": "Масло растительное оливковое натуральное",
+                "category": category,
+                "price": 1200.0,
+                "created_at": "2024-12-24",
+                "changed_at": "2024-12-24",
+            },
         ]
 
         for new_product in new_products:
