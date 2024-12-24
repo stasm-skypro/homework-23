@@ -10,6 +10,9 @@ class Command(BaseCommand):
 
         category, _ = Category.objects.get_or_create(name="Продукты", description="Товары первой необходимости")
 
+        # Перед добавлением новых записей удалим существующие записи из таблицы catalog_product.
+        Product.objects.all().delete()
+
         # Как альтернативный вариант, можно заранее создать фикстуру с товарами и использовать команду loaddata.
         new_products = [
             {
@@ -49,6 +52,6 @@ class Command(BaseCommand):
         for new_product in new_products:
             product, created = Product.objects.get_or_create(**new_product)
             if created:
-                print("Новый товар %s успешно добавлен." % product)
+                self.stdout.write(self.style.SUCCESS("Новый товар %s успешно добавлен." % product))
             else:
-                print("Товар уже %s существует." % product)
+                self.stdout.write(self.style.WARNING("Товар уже %s существует." % product))
