@@ -1,8 +1,10 @@
 from django.core.management.base import BaseCommand
 from catalog.models import Category, Product
 
+
 class Command(BaseCommand):
     """Класс для создания кастомных команд для операций с базой данных."""
+
     help = "Добавление тестовых продуктов в таблицу catalog_product."
 
     def handle(self, *args, **kwargs):
@@ -21,7 +23,7 @@ class Command(BaseCommand):
                 "category": category,
                 "price": 800.0,
                 "created_at": "2024-12-24",
-                "changed_at":"2024-12-24",
+                "changed_at": "2024-12-24",
             },
             {
                 "product": "Масло сливочное Домашнее",

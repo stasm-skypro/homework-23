@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Skystore</title>
     <!-- Подключите статичеcкие файлы со стилями Bootstrap -->
-<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">-->
+    <!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">-->
     <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css">
 </head>
 <body>
@@ -42,6 +42,19 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div>
+        <p>
+        <h5>
+
+            {%for x in data%}
+            {{x}}
+            <br>
+            {%endfor%}
+
+        </h5>
+        </p>
     </div>
 
     <footer class="pt-4 my-md-5 pt-md-5 border-top">
