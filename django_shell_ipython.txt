@@ -1,0 +1,39 @@
+from catalog.models import Category, Product
+
+
+category1=Category.objects.create(name="Продукты", description="Товары первой необходимости")
+
+product1=Product.objects.create(product="Молоко", description="Молоко коровье 3%", category=category1, price=500.0,
+created_at="2024-12-24", changed_at="2024-12-24")
+
+product2=Product.objects.create(product="Хлеб", description="Хлеб белый стандартный", category=category1,
+  price=100.0, created_at="2024-12-24", changed_at="2024-12-24")
+
+product3=Product.objects.create(product="Яйца", description="Яйца 1С", category=category1, price=500.0,
+created_at="2024-12-24", changed_at="2024-12-24")
+
+
+
+category2=Category.objects.create(name="Одежда", description="Товары широкого потребления")
+
+product4=Product.objects.create(product="Шорты", description="Шорты мужские, размер 50-58", category=category2,
+price=5000.0, created_at="2024-12-24", changed_at="2024-12-24")
+
+product5=Product.objects.create(product="Сорочка мужская", description="Сорочка мужская классическая",
+category=category2, price=7000.0, created_at="2024-12-24", changed_at="2024-12-24")
+
+product6=Product.objects.create(product="Термобельё", description="Термобельё утеплённое зимнее", category=category2,
+price=779990.0, created_at="2024-12-24", changed_at="2024-12-24")
+
+
+
+category3=Category.objects.create(name="Смартфоны", description="Смартфоны, мобильные телефоны")
+
+product7=Product.objects.create(product="Шорты мужские, размер 50", description="Шорты мужские, размер 50",
+category=category3, price=180000.0, created_at="2024-12-24", changed_at="2024-12-24")
+
+product8=Product.objects.create(product="Шорты мужские, размер 50", description="Шорты мужские, размер 50",
+category=category3, price=210000.0, created_at="2024-12-24", changed_at="2024-12-24")
+
+product9=Product.objects.create(product="Шорты мужские, размер 50", description="Шорты мужские, размер 50",
+category=category3, price=31000.0, created_at="2024-12-24", changed_at="2024-12-24")
